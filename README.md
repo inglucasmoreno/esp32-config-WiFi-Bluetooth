@@ -2,6 +2,7 @@
 Configuracion de conexion WiFi via Bluetooth Terminal
 
 ### Requisitos
+- Placa ESP32
 - Libreria WiFi.h
 - Libreria BluetoothSerial.h
 - Libreria EEPROM.h
