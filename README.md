@@ -14,3 +14,12 @@ Configuracion de conexion WiFi via Bluetooth Terminal
 - Desconectar de Red WiFi -> disconnect-wifi
 
 Nota: No colocar los corchetes []
+
+### Memoria EEPROM
+- Se aprovecha la memoria EEPROM de la ESP32 para almacenar SSID y Password
+- Cuando el sistema inicia, levanta automaticamente SSID y Password desde la memoria
+
+### Builtin LED
+- Se aprovecha el Builtin LED de la ESP 32 para indicar estado de conexion
+- BUILTIN LED Parpadeando -> Esta intentando de conectar
+- BUILTIN LED Encendido -> Conexion a red establecida
