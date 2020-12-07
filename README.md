@@ -10,8 +10,8 @@ Configuracion de conexion WiFi via Bluetooth Terminal
 ### Comandos via Bluetooth Terminal
 - Setear SSID de red WiFi -> ssid-[ssid de red a conectar]
 - Setear Password de red WiFi -> password-[password de red a conectar]
-- Conectar a Red WiFi -> connect-wifi
-- Desconectar de Red WiFi -> disconnect-wifi
+- Conectar a Red WiFi + Habilitar reconexion -> connect-wifi
+- Desconectar de Red WiFi + Deshabilitar reconexion -> disconnect-wifi
 
 Nota: No colocar los corchetes [ ]
 
@@ -21,5 +21,6 @@ Nota: No colocar los corchetes [ ]
 
 ### Builtin LED
 - Se aprovecha el Builtin LED de la ESP 32 para indicar estado de conexion
+- BUILTIN LED Apagado -> Desconectado de red WiFi | Ademas esta deshabilitada la reconexion
 - BUILTIN LED Parpadeando -> Esta intentando de conectar
 - BUILTIN LED Encendido -> Conexion a red establecida
