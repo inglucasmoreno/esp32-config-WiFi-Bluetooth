@@ -13,7 +13,7 @@ Configuracion de conexion WiFi via Bluetooth Terminal
 - Conectar a Red WiFi -> connect-wifi
 - Desconectar de Red WiFi -> disconnect-wifi
 
-Nota: No colocar los corchetes []
+Nota: No colocar los corchetes [ ]
 
 ### Memoria EEPROM
 - Se aprovecha la memoria EEPROM de la ESP32 para almacenar SSID y Password
